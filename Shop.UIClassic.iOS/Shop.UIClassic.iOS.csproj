@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{8FA8DEFA-3A0A-48F0-B524-CB9D946A56B3}</ProjectGuid>
+    <ProjectGuid>{860AB22B-90DF-4ADF-94A0-EAC058D40D2D}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{440aa056-593a-4519-8708-27081dee632f}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -78,7 +78,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">

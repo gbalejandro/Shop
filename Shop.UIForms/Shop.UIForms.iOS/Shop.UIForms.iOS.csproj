@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{623CE438-8BFB-4B2E-94A3-E8EA2C7EDF71}</ProjectGuid>
+    <ProjectGuid>{F391E1F1-EFDA-4738-8893-C1736192EBF3}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -124,13 +124,13 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.304370-pre8" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Shop.UIForms\Shop.UIForms.csproj">
-      <Project>{D7CA7755-740D-4CF6-A036-A94312EE300D}</Project>
+      <Project>{59FB445D-DB5A-43A0-B8E0-C208CFA5C733}</Project>
       <Name>Shop.UIForms</Name>
     </ProjectReference>
   </ItemGroup>
