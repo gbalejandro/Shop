@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Shop.Web.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Shop.Web.Controllers.API
 {
@@ -20,7 +16,7 @@ namespace Shop.Web.Controllers.API
         [HttpGet]
         public ActionResult GetProducts()
         {
-            return Ok(this.productRepository.GetAll());
+            return Ok(this.productRepository.GetAllWithUsers());
         }
     }
 }
